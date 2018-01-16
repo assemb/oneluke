@@ -1,0 +1,95 @@
+.main-footer {
+
+  padding-top: 125px;
+  padding-bottom: 20px;
+  background-color: #2c9087;
+  background-image: url('../img/bg-grid.png'), url('../img/bg-footer.jpg');
+  background-repeat: repeat, repeat;
+  background-size: auto , 100% 100%;
+  color: #fff;
+  @media @tablet {
+    padding-top: 25px;
+  }
+
+  &__wrapper {
+
+    .wrapper ();
+    .clearfix ();
+
+  }
+
+
+  & h2 {
+
+    .h2 ();
+
+  }
+
+    & h3 {
+
+    text-transform: uppercase;
+
+  }
+
+  &__about-us {
+
+    float: left;
+    width: 23%;
+    margin-right: 2.5%;
+    padding-top: 60px;
+    background: url('../img/ico-about-us.png') no-repeat 5px 5px;
+    @media @tablet {
+      padding-top: 40px;
+      float: none;
+      width: 100%;
+    }
+
+  }
+
+  &__adress {
+
+    float: left;
+    width: 23%;
+    margin-right: 2.5%;
+    padding-top: 60px;
+    background: url('../img/ico-adress.png') no-repeat 5px 5px;
+    @media @tablet {
+      padding-top: 40px;
+      float: none;
+      width: 100%;
+    }
+
+    & a {
+      text-decoration: none;
+      color: #fff;
+    }
+
+  }
+
+  &__submit {
+    float: left;
+    width: 48%;
+    padding-top: 60px;
+    background: url('../img/ico-get-in.png') no-repeat 5px 5px;
+    @media @tablet {
+      float: none;
+      width: 100%;
+    }
+  }
+
+  & input[type="text"] {
+    width: 240px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+
+    &:focus {
+      outline: 2px solid @main-c;
+    }
+  }
+
+  }
+
+

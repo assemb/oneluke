@@ -1,0 +1,42 @@
+.features {
+
+  background: #fff url("../img/bg-features.jpg") no-repeat right top;
+
+  @media @tablet {
+    background: #fff;
+  }
+  
+  &__wrapper {
+
+    .wrapper ();
+    .clearfix ();
+    
+  }
+
+  &__item {
+    float: left;
+    width: 32%;
+    margin-right: 1.5%;
+    padding-top: 80px;
+    padding-bottom: 60px;
+
+    @media @tablet {
+      float: none;
+      width: 99%;
+      margin: 0;
+      padding: 1%;
+    }
+
+  
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+  & h3 {
+    text-transform: uppercase;
+    color: #000;
+  }
+
+}

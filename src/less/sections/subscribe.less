@@ -1,0 +1,67 @@
+.subscribe {
+  background-color: @main-c;
+  color: #fff;
+  padding-top: 100px;
+
+  &__wrapper {
+
+    .wrapper ();
+    .clearfix ();
+
+  }
+
+  & h2 {
+    float: left;
+    width: 270px;
+    margin-right: 30px;
+    .h2 ();
+}
+  & p {
+    float: left;
+    max-width: 700px;
+  }
+
+  &__input {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    top: 32px;
+    left: 50%;
+    margin-left: -285px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #bcbcbc;
+    border-radius: 3px;
+    box-shadow: 0 0 16px 0px rgba(0, 0, 0, 0.2);
+
+    &:hover {
+      border: 1px solid @main-c;
+    }
+
+    @media @tablet {
+      margin-left: 0;
+      left: 0;
+
+    }
+
+
+  }
+
+  & input[type="text"] {
+    padding: 13px;
+    width: 380px;
+    margin-right: 10px;
+    border: none;
+    outline: none;
+    padding: 13px;
+    font-size: 18px;
+
+    @media @tablet {
+      width: 250px;
+      padding: 10px;
+      margin: 0;
+    }
+  }
+
+
+}

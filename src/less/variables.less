@@ -1,0 +1,49 @@
+@main-c: #51aa92; 
+@grey-c: #797979;
+@dark-grey-c: #262626;
+
+
+@gray-dark: 222222; 
+@brown: #663d15; 
+
+@ffamily: 'Raleway', 'Arial', sans-serif;
+
+@fsize: 14px;
+@fweight: 300;
+@lheight: 1.7;
+@fcolor: @grey-c;
+@background: #fff;
+
+@tablet: ~"(max-width: 768px)";
+@phone: ~"(max-width: 480px)";
+
+@h1-size: 30px;
+@h1-weight: 700;
+@h1-family: @ffamily;
+
+
+@h2-size: 30px;
+@h2-weight: 700;
+@h2-family: @ffamily;
+
+@h3-size: 15px;
+@h3-weight: 700;
+@h3-family: @ffamily;
+
+.h1 () {
+  font-size: @h1-size;
+  font-weight: @h1-weight;
+  font-family: @h1-family;
+}
+
+.h2 () {
+  font-size: @h2-size;
+  font-weight: @h2-weight;
+  font-family: @h2-family;
+}
+
+.h3 () {
+  font-size: @h3-size;
+  font-weight: @h3-weight;
+  font-family: @h3-family;
+}
